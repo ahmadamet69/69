@@ -2,6 +2,6 @@
 x=1
 while [ $x -le 5 ]
 do
-  cp $1 $2
+  cp -f $1 $2
   sleep 3
 done
